@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "__MSG_extensionName__",
+    "version": "1.0",
+    "description": "__MSG_extensionDescription__",
+    "default_locale": "en",
+    "icons": {
+        "48": "icons/icon.svg",
+        "64": "icons/icon.svg",
+        "96": "icons/icon.svg",
+        "128": "icons/icon.svg"
+    },
+    "applications": {
+        "gecko": {
+            "id": "idn-warner@mirclus.github.com"
+        }
+    },
+    "permissions": [
+        "<all_urls>",
+        "tabs",
+        "webNavigation"
+    ],
+    "page_action": {
+        "default_icon": "icons/icon.svg"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}

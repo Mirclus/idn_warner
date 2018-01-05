@@ -1,0 +1,30 @@
+{
+    "extensionName": {
+        "message": "IDN-Warner",
+        "description": "Name of the extension."
+    },
+    "extensionDescription": {
+        "message": "Warns if a domain or subdomain is an internationalized domain name to prevent fishing attacks.",
+        "description": "Description of the extension."
+    },
+    "pageActionTitleWarn": {
+        "message": "A subdomain is an internationalized domain name: $URL$",
+        "description": "Tooltip if a subdomain (not 1st or 2nd level domain) is an IDN.",
+        "placeholders": {
+            "url": {
+                "content": "$1",
+                "example": "xn--80ak6aa92e.example.com"
+            }
+        }
+    },
+    "pageActionTitleFatal": {
+        "message": "This domain is an internationalized domain name: $URL$",
+        "description": "Tooltip if 1st or 2nd level domain is an IDN.",
+        "placeholders": {
+            "url": {
+                "content": "$1",
+                "example": "www.xn--80ak6aa92e.com"
+            }
+        }
+    }
+}
